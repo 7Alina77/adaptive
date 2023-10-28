@@ -1,5 +1,5 @@
 import '../About/About.css';
-import about from '../../images/Business competition-bro.svg';
+import about from '../../images/Business competition-bro.svg'
 
 function About() {
   return (

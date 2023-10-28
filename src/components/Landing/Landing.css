@@ -193,20 +193,20 @@
 
   .landing__title {
     max-width: 350px;
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .landing__subtitle {
     margin-top: 25px;
     max-width: 350px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .landing__btn {
     margin: 0 auto;
     justify-self: center;
     margin-top: 25px;
-    max-width: 290px;
+    max-width: 260px;
     max-height: 60px;
     font-size: 16px;
   }

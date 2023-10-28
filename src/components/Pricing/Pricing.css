@@ -1,0 +1,80 @@
+.pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1180px;
+  margin: 100px auto 0;
+}
+
+.pricing__title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.pricing__cards {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 20px auto 0;
+}
+
+.pricing__card {
+  max-width: 350px;
+  margin-right: 40px;
+}
+
+.pricing__card:last-child {
+  margin-right: 0;
+}
+
+.pricing__image {
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.pricing__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.pricing__card-title {
+  margin: 50px 0 0 0;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.pricing__card-subtitle {
+  margin: 50px 0 0;
+  color: #8F95A5;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 90px;
+}
+
+.pricing__cost {
+  margin: 50px 0 0 0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background: #EEE;
+  padding: 10px 20px;
+  max-width: fit-content;
+}
+
+.pricing__cost-number {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.pricing__cost-text {
+  color: #546269;
+  font-size: 18px;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
