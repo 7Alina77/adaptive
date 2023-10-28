@@ -1,5 +1,7 @@
 .header {
   max-width: 1180px;
+  display: flex;
+  margin: 0 auto;
 }
 
 .link {
@@ -24,7 +26,7 @@
 .header__logo {
   width: 106px;
   height: 54px;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .header__menu {
@@ -34,6 +36,11 @@
   padding: 0;
 }
 
+.header__menu_type_burger {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__item {
   margin: 0 20px;
   font-size: 20px;
@@ -41,7 +48,7 @@
 
 .header__btn {
   margin: 0;
-  margin-left: 100px;
+  margin-left: 150px;
   padding: 17px 57px;
   justify-self: flex-end;
   font-size: 24px;
@@ -51,7 +58,22 @@
   border: 2px solid #263238;
 }
 
-@media screen and (max-width: 1170px){
+.header__burger {
+  display: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  width: 30px;
+  height: 17px;
+}
+
+.header__burger-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1183px){
   .header__logo {
     width: 89px;
     margin-right: 60px;
@@ -82,5 +104,9 @@
     margin-left: 60px;
     font-size: 18px;
     padding: 12px 40px;
+  }
+
+  .header__burger {
+    display: block;
   }
 }

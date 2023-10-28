@@ -1,7 +1,9 @@
 import './Header.css';
 import logo from '../../images/Britlex.png';
+import burger from '../../images/burger.svg';
+import { useEffect } from 'react';
 
-function Header() {
+function Header({isBurger}) {
   return (
     <section className='header'>
       <nav className='header__navigation'>
@@ -13,7 +15,8 @@ function Header() {
           <li className='header__item'><a className="link" href='#'>Pricing</a></li>
           <li className='header__item'><a className="link" href='#'>Contacts</a></li>
         </ul>
-        <button className='header__btn link'>Let's Talk!</button>
+        <button className='header__burger link'><img className='header__burger-img' src={burger} alt='бургер меню'/></button>
+        <button className='header__btn header__btn_type_burger link'>Let's Talk!</button>
       </nav>
     </section>
   )
