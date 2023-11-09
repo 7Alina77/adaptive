@@ -78,3 +78,167 @@
   margin: 0;
   padding: 0 0 0 10px;
 }
+
+@media screen and (max-width: 1150px){
+  .pricing__card {
+    max-width: 290px;
+  }
+
+  .pricing__card-title {
+    font-size: 26px;
+  }
+
+  .pricing__card-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 980px){
+  .pricing__title {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  .pricing__card {
+    max-width: 250px;
+  }
+
+  .pricing__card-title {
+    font-size: 22px;
+  }
+
+  .pricing__card-subtitle {
+    font-size: 16px;
+  }
+
+  .pricing__cost {
+    margin-top: 30px;
+  }
+
+  .pricing__cost-number {
+    font-size: 20px;
+  }
+
+  .pricing__cost-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 850px){
+  .pricing {
+    margin-top: 50px;
+  }
+
+  .pricing__title {
+    font-size: 34px;
+  }
+
+  .pricing__card {
+    max-width: 200px;
+    margin-right: 20px;
+  }
+
+  .pricing__card-title {
+    margin-top: 20px;
+    font-size: 20px;
+    height: 60px;
+  }
+
+  .pricing__card-subtitle {
+    margin-top: 20px;
+  }
+
+  .pricing__cost {
+    margin-top: 30px;
+  }
+
+  .pricing__cost-number {
+    font-size: 18px;
+  }
+
+  .pricing__cost-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .pricing {
+    margin-top: 20px;
+  }
+
+  .pricing__title {
+    font-size: 40px;
+  }
+
+  .pricing__cards {
+    flex-direction: column;
+    margin: 30px auto;
+  }
+
+  .pricing__card {
+    max-width: 450px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .pricing__image {
+    margin: 0 auto;
+  }
+
+  .pricing__card-title {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  .pricing__card-subtitle {
+    margin-top: 20px;
+    height: 40px;
+  }
+
+  .pricing__cost {
+    margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .pricing {
+    padding: 0 10px;
+    margin-top: 60px;
+  }
+
+  .pricing__title {
+    font-size: 26px;
+  }
+
+  .pricing__card {
+    max-width: 350px;
+  }
+
+  .pricing__image {
+    margin: 0 auto;
+  }
+
+  .pricing__card-title {
+    margin-top: 10px;
+    font-size: 20px;
+    height: 24px;
+  }
+
+  .pricing__card-subtitle {
+    margin-top: 20px;
+    font-size: 12px;
+    height: 50px;
+  }
+
+  .pricing__cost {
+    margin: 10px auto;
+  }
+
+  .pricing__cost-number {
+    font-size: 16px;
+  }
+
+  .pricing__cost-text {
+    font-size: 12px;
+  }
+}
