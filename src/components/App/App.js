@@ -4,6 +4,7 @@ import './App.css';
 import Landing from '../Landing/Landing';
 import About from '../About/About';
 import Pricing from '../Pricing/Pricing';
+import Skills from '../Skills/Skills';
 
 function App() {
   const [isBurger, setIsBurger] = useState(false);
@@ -16,6 +17,7 @@ function App() {
     <div className="app">
       {/* <Header isBurger={isBurger}/> */}
       <Landing />
+      <Skills />
       <Pricing />
       <About />
     </div>
