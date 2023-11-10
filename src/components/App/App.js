@@ -6,6 +6,7 @@ import About from '../About/About';
 import Pricing from '../Pricing/Pricing';
 import Skills from '../Skills/Skills';
 import Contact from '../Contact/Contact';
+import Footer from '../Footer/Footer';
 
 function App() {
   const [isBurger, setIsBurger] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       <Pricing />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
