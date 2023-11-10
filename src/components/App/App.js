@@ -5,6 +5,7 @@ import Landing from '../Landing/Landing';
 import About from '../About/About';
 import Pricing from '../Pricing/Pricing';
 import Skills from '../Skills/Skills';
+import Contact from '../Contact/Contact';
 
 function App() {
   const [isBurger, setIsBurger] = useState(false);
@@ -20,6 +21,7 @@ function App() {
       <Skills />
       <Pricing />
       <About />
+      <Contact />
     </div>
   );
 }
