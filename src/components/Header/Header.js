@@ -3,7 +3,7 @@ import logo from '../../images/Britlex.png';
 import burger from '../../images/burger.svg';
 import { useEffect } from 'react';
 
-function Header({isBurger}) {
+function Header({onClick, isBurger}) {
   return (
     <section className='header'>
       <nav className='header__navigation'>
@@ -15,8 +15,8 @@ function Header({isBurger}) {
           <li className='header__item'><a className="link" href='#'>Pricing</a></li>
           <li className='header__item'><a className="link" href='#'>Contacts</a></li>
         </ul>
-        <button className='header__burger link'><img className='header__burger-img' src={burger} alt='бургер меню'/></button>
-        <button className='header__btn header__btn_type_burger link'>Let's Talk!</button>
+        <button onClick={onClick} className='header__burger link'><img className='header__burger-img' src={burger} alt='бургер меню'/></button>
+        <button className='header__btn link'>Let's Talk!</button>
       </nav>
     </section>
   )
