@@ -1,3 +1,5 @@
+# Адаптивный лендинг для школы иностранных языков. Реализована форма заявки и бургер-меню под мобильные устройства
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -19,3 +21,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 ### Видео-превью проекта
+
+
+https://github.com/7Alina77/adaptive/assets/96536382/ec2cb3d9-41c0-4e79-a856-09c715cb2392
+
