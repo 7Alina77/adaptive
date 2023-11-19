@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.acc44f32.css",
+    "main.js": "/static/js/main.fd41470e.js",
+    "static/js/787.c4362bc3.chunk.js": "/static/js/787.c4362bc3.chunk.js",
+    "static/media/Lesson-bro.svg": "/static/media/Lesson-bro.a1ccaa3b269dc2efb672f5334884a53d.svg",
+    "static/media/Learning languages-bro.svg": "/static/media/Learning languages-bro.ed93d49bbb150d11bfb4de2ab6c6e6cd.svg",
+    "static/media/writing.svg": "/static/media/writing.d95aa1002f829e26dd3381cc11b86144.svg",
+    "static/media/Business competition-bro.svg": "/static/media/Business competition-bro.0c912e29704d1ea37d1c76136ad92f7d.svg",
+    "static/media/listening.svg": "/static/media/listening.bf0b86e97c54ebfd29f7cb5affd991a5.svg",
+    "static/media/contact.svg": "/static/media/contact.a98364f26b55d9985749f1b806701f20.svg",
+    "static/media/speaking.svg": "/static/media/speaking.42099c627c07e3b74b8db1c67b2b4553.svg",
+    "static/media/reading.svg": "/static/media/reading.d3e99f06de6cd82aab3e1b79c7c8383b.svg",
+    "static/media/Webinar-bro.svg": "/static/media/Webinar-bro.ccc663416f65c8f5d08df4ab68e47af4.svg",
+    "static/media/Online test-bro.svg": "/static/media/Online test-bro.20f447a8f92a3bffbaa5379913f8fa18.svg",
+    "static/media/light-bulb-svgrepo-com.svg": "/static/media/light-bulb-svgrepo-com.ab4143aa674acf5025f67878bc876b1f.svg",
+    "index.html": "/index.html",
+    "static/media/burger.svg": "/static/media/burger.acdf175568dc3d182e2365603222e115.svg",
+    "static/media/cross.svg": "/static/media/cross.ac35c61cf8822c9426510509ddfb8dea.svg",
+    "main.acc44f32.css.map": "/static/css/main.acc44f32.css.map",
+    "main.fd41470e.js.map": "/static/js/main.fd41470e.js.map",
+    "787.c4362bc3.chunk.js.map": "/static/js/787.c4362bc3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.acc44f32.css",
+    "static/js/main.fd41470e.js"
+  ]
+}
