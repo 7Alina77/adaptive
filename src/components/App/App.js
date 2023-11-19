@@ -16,6 +16,17 @@ function App() {
     setIsBurger(!isBurger);
   };
 
+  const scrollTo = (to) => {
+    this.addEventListener('click', () => {
+      to.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+      });
+    })
+  };
+
+  // scrollTo(skills, sectionSkills);
+
   return (
     <div className="app">
       <Header onClick={handleBurger} isBurger={isBurger}/>

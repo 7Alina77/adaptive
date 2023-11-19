@@ -5,6 +5,8 @@ import writing from '../../images/writing.svg';
 import '../Skills/Skills.css';
 
 function Skills() {
+  const sectioSkills = document.querySelector('.skills');
+
   return (
     <section className="skills">
       <h2 className="skills__title">Skills</h2>
